@@ -66,7 +66,7 @@ int main(int argc, const char * argv[]) {
         H[i] = randomNum();
     }
     std::cout << "Reading file" << std::endl;
-    std::ifstream fileStream("/Users/Sami/Desktop/avalghash");
+    std::ifstream fileStream("avalghash");
     uint64_t num;
     std::vector<uint64_t> nums;
     while (fileStream >> std::hex >> num) {
